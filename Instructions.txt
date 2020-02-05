@@ -1,0 +1,41 @@
+----------- HOW TO MAKE WALL HACK WORK PROPERLY. ------------
+
+1. Close every Dekaron game.
+
+2. Put 'PackManager.exe'  AND 'unpacked' folder into "C:\Dekaron\data" folder.
+
+3. Run 'PackManager.exe' as administrator.
+
+4. Press 'OK' button for all message box that you see.
+
+5. Click on 'share'. Click 'Pack Selected'. Press 'OK' on all message box. 
+
+6. Close 'PacketManager.exe' when you see 'Completed'.
+
+
+
+----------- HOW TO BYPASS. #1 ------------
+
+1. Open 'mantra.exe'. Never close it.
+
+2. Open as many 'dekaron' as you need.
+
+----------- HOW TO BYPASS. #2 ------------
+
+1. Open 'xprocess32.exe' and then close it.
+
+2.Open 'dktw.txt'.
+
+3.Change this line '<imagePath>D:\Documents\GitHub\tw-moons\x3.dll</imagePath>'
+The path must match the location of your 'x3.dll' file.
+
+4. Save 'dktw.txt'.
+
+5. Rename 'dktw.txt' to 'dktw.xpr'
+
+6. Open 'dktw.xpr'.
+
+7. Start Dekaron. Do not close until you see 'Waiting' bar go away.
+Do not start new Dekaron until you see 'Waiting' bar go away.
+
+8.Open 'dktw.xpr' everytime you want to start new Dekaron.
