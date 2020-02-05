@@ -2,7 +2,7 @@
 
 Press the Green button 'Clone or download'
 
-Download as .zip file.
+Download as ZIP file.
 
 Extract to your desktop.
 
