@@ -1,6 +1,0 @@
-2020-02-05 17:15:22 *NORMAL*     Started on Windows 10.0.0.18362 x64. Driver status: 0xC0000225
-2020-02-05 17:15:22 *CRITICAL*   Injection initiated. Mode: 1, process type: 2, pid: 0, mmap flags: 0x10001, erasePE: 0, unlink: 0, thread hijack: 0, init routine: '', init arg: ''
-2020-02-05 17:15:22 *NORMAL*     Waiting on process C:\Dekaron\bin\dekaron.exe
-2020-02-05 17:16:41 *VERBOSE*    Got process 9340
-2020-02-05 17:16:41 *CRITICAL*   Injecting image 'D:\Documents\GitHub\tw-moons\x3.dll'
-
