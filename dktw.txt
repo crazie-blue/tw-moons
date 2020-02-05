@@ -1,6 +1,6 @@
 <XenosConfig>
 	<imagePath>D:\Documents\GitHub\tw-moons\x3.dll</imagePath>
-	<manualMapFlags>0</manualMapFlags>
+	<manualMapFlags>65537</manualMapFlags>
 	<procName>C:\Dekaron\bin\dekaron.exe</procName>
 	<hijack>0</hijack>
 	<unlink>0</unlink>
@@ -10,7 +10,7 @@
 	<injIndef>0</injIndef>
 	<processMode>2</processMode>
 	<injectMode>1</injectMode>
-	<delay>0</delay>
+	<delay>25</delay>
 	<period>0</period>
 	<skip>0</skip>
 	<procCmdLine/>

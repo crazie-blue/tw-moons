@@ -1,17 +1,6 @@
-2020-02-05 16:50:18 *NORMAL*     Started on Windows 10.0.0.18362 x64. Driver status: 0xC0000225
-
-2020-02-05 16:51:07 *NORMAL*     Started on Windows 10.0.0.18362 x64. Driver status: 0xC0000225
-
-2020-02-05 16:51:30 *NORMAL*     Started on Windows 10.0.0.18362 x64. Driver status: 0xC0000225
-2020-02-05 16:51:37 *CRITICAL*   Injection initiated. Mode: 0, process type: 2, pid: 0, mmap flags: 0x0, erasePE: 0, unlink: 0, thread hijack: 0, init routine: '', init arg: ''
-2020-02-05 16:51:37 *NORMAL*     Waiting on process C:\Dekaron\bin\dekaron.exe
-2020-02-05 16:52:32 *VERBOSE*    Got process 7692
-2020-02-05 16:52:32 *CRITICAL*   Injecting image 'D:\Documents\GitHub\tw-moons\x3.dll'
-2020-02-05 16:52:32 *ERROR*      Invalid failure status: 0x0
-2020-02-05 16:52:32 *ERROR*      Failed to inject image 'D:\Documents\GitHub\tw-moons\x3.dll'.
-Error code 0xC0000135
-2020-02-05 16:53:07 *ERROR*      Failed to load BlackBone driver:
-
-Windows cannot verify the digital signature for this file. A recent hardware or software change might have installed a file that is signed incorrectly or damaged, or that might be malicious software from an unknown source.
-
+2020-02-05 17:15:22 *NORMAL*     Started on Windows 10.0.0.18362 x64. Driver status: 0xC0000225
+2020-02-05 17:15:22 *CRITICAL*   Injection initiated. Mode: 1, process type: 2, pid: 0, mmap flags: 0x10001, erasePE: 0, unlink: 0, thread hijack: 0, init routine: '', init arg: ''
+2020-02-05 17:15:22 *NORMAL*     Waiting on process C:\Dekaron\bin\dekaron.exe
+2020-02-05 17:16:41 *VERBOSE*    Got process 9340
+2020-02-05 17:16:41 *CRITICAL*   Injecting image 'D:\Documents\GitHub\tw-moons\x3.dll'
 
