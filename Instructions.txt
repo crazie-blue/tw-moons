@@ -14,7 +14,7 @@
 
 
 
------------ HOW TO BYPASS. #1 ------------
+----------- HOW TO BYPASS. #1 ---- [seems to be NOT WORKING]--------
 
 1. Open 'mantra.exe'. Never close it.
 
