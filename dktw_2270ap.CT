@@ -195,7 +195,7 @@ mov dword ptr[eax+08],12 // change to auto pot
 mov dword ptr[eax+10],12
 finished_check:
 db 83 78 08 13
-jne 00DB9D04
+jne 00DBA034
 jmp return
 
 potz:
@@ -362,7 +362,7 @@ mov [ecx+20],eax //explore_move
 
 mov [ecx+40],3E7 //followTarget
 
-mov eax,3E7//spawn monster count
+mov eax,0//spawn monster count
 mov [ecx+000000AC],eax
 mov eax,1 //spawn monster tick
 mov [ecx+000000B0],eax
@@ -388,7 +388,7 @@ unregistersymbol(vacz)
       <LastState/>
       <Color>0080FF</Color>
       <VariableType>Auto Assembler Script</VariableType>
-      <AssemblerScript>define(address1,0056A7B0)
+      <AssemblerScript>define(address1,0056A8A0)
 
 [ENABLE]
 alloc(newmem1,$1000)
@@ -399,7 +399,7 @@ label(return1)
 newmem1:
 code1:
 MOV DWORD PTR DS:[EAX+111],(float)0.001//3E4CCCCD //3E99999A old
-//mulss xmm0,[eax+00000111]
+mulss xmm0,[eax+00000111]
 jmp return1
 
 address1:
@@ -408,20 +408,20 @@ address1:
   nop
   nop
 
-//  nop
-//  nop
-//  nop
-//  nop
-//  nop
-//  nop
-//  nop
-//  nop
+  nop
+  nop
+  nop
+  nop
+  nop
+  nop
+  nop
+  nop
 return1:
 
 
 [DISABLE]
 address1:
-  db F3 0F 59 80 11 01 00 00// F3 0F 59 05 80 24 2C 01
+  db F3 0F 59 80 11 01 00 00 F3 0F 59 05 D0 24 2C 01
   // mulss xmm0,[edi+00000111]
   // mulss xmm0,[011F9F98]
 dealloc(newmem1)
@@ -442,8 +442,8 @@ dealloc(newmem1)
   This script does blah blah blah
 }
 
-define(address,00F8D064)
-define(bytes,0F BA 25 A8 9E 5E 01 01 73 09)
+define(address,00F8D1A2)
+define(bytes,0F BA 25 88 9E 5E 01 01 73 09)
 
 [ENABLE]
 
@@ -465,8 +465,8 @@ mov [esi+406],'are.'
 mov [esi+40A],'mac'
 
 code:
-  bt [015E9EA8],01
-  jae 00F8D077
+  bt [015E9E88],01
+  jae 00F8D1B5
   jmp return
 
 address:
@@ -755,7 +755,7 @@ unregistersymbol(pd3)
   This script does blah blah blah
 }
 
-define(address,0056EEA7)
+define(address,0056EF97)
 define(bytes,F3 0F 59 80 11 01 00 00)// F3 0F 59 05 58 24 2C 01)
 
 [ENABLE]
@@ -829,10 +829,5 @@ dealloc(newmem)
       </CheatEntries>
     </CheatEntry>
   </CheatEntries>
-  <UserdefinedSymbols>
-    <SymbolEntry>
-      <Name>display_item</Name>
-      <Address>443C0000</Address>
-    </SymbolEntry>
-  </UserdefinedSymbols>
+  <UserdefinedSymbols/>
 </CheatTable>
